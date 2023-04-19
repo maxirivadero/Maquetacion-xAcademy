@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+p {
+    margin-right: 3em;
+    font-size: 0.9em;
+}
+
+#header {
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 1.4em 10em 1.2em;
+    justify-content: space-between;
+    font-size: 1em;
+}
+
+#header-left {
+    margin-left: 13%;
+}
+
+#header-right {
+    display: flex;
+    align-items: center;
+    margin-right: 15%;
+}
+
+.logo-instagram {
+    height: 15px;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+h1 {
+    margin: 0em 14.5em;
+    text-align: center;
+}
+
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 1.5em;
+    height: 38px;
+    border-width: 2px;
+}
+
+#sumate-morado {
+    margin-left: 14px;
+    color: #6b53f0;
+    border-color: #6b53f0;
+}
+
+#introduction {
+    margin: 6em;
+    margin-left: 14%;
+    margin-right: 14%;
+    display: flex;
+    flex-direction: column;
+}
+
+#introduction-text {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#impacto{
+    color: white;
+    background-color: #201b24;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+#impacto-contenido{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 1em 2em 2em;
+}
+
+#impacto-left{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    width: 416px;
+}
+
+.titulo{
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: -1.1em;
+}
+
+.parrafo{
+    font-size: 1.1em;
+    line-height: 21px;
+
+}
+
+#impacto-right{
+    display: flex;
+    flex-direction: center;
+    margin-top: 40px;
+    
+}
+
+.contenedores-impacto{
+    margin-right: 3em;
+    align-items: center;
+    
+
+}
+.numero-impacto{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitulo-impacto{
+    color: #8c939c;
+    text-align: center;
+}
+
+@media (width >=2000px) {
+    #introduction-text {
+        font-size: 20px;
+    }
+}
+
+@media (width >=4000px) {
+    #introduction-text {
+        font-size: 30px;
+    }
+}
